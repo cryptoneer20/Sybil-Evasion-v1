@@ -1,0 +1,33 @@
+{
+  "name": "hello-mont",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "main" : "node main.js",
+    "dev": "nodemon"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ellipsis-labs/phoenix-sdk": "^2.0.2",
+    "@ethersproject/bytes": "^5.7.0",
+    "@jup-ag/api": "^6.0.10",
+    "@mayanfinance/swap-sdk": "^4.5.1",
+    "@solana/spl-token": "^0.3.8",
+    "@solana/web3.js": "^1.89.1",
+    "@zetamarkets/sdk": "^1.20.1-beta.1",
+    "axios": "^0.27.2",
+    "bs58": "^5.0.0",
+    "dotenv": "^16.1.4",
+    "ethers": "^5.7.2",
+    "fs": "^0.0.1-security",
+    "global-tunnel-ng": "^2.7.1",
+    "js-sha3": "^0.9.3",
+    "node-fetch": "^2.6.11",
+    "node-global-proxy": "^1.0.1",
+    "nodemon": "^2.0.22",
+    "puppeteer": "^21.10.0"
+  }
+}
